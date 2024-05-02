@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+.ecran{
+    width: 100%;
+    height: 100vh;
+    background-image: url(Media/background.jpg);
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.carte{
+    width: 90%;
+    max-width: 440px;
+    color: aliceblue;
+    text-align: center;
+    padding: 50px 30px;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+.carte img{
+    width: 150px;
+    border-radius: 25%;
+}
+.carte h2{
+    font-size: 50px;
+    font-weight: 600px;
+    margin-top: 20px;
+}
+.carte p{
+    font-size: 20px;
+    margin: 10px auto;
+    max-width: 330px;
+}
+.carte .reseau img{
+    width: 40px;
+    border-radius: 50%;
+    margin: 10px 5px;
+    transition: background 0.5;
+}
+.carte .reseau img:hover{
+    background: rgb(240, 90, 195);
+}
+.bouton{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    background: #fff;
+    color: rgb(226, 59, 184);
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 30px 0 10px;
+}
+.discord{
+    text-decoration: none;
+    display: inline-block;
+    font-size: 20px;
+    font-weight: 700;
+    background: #fff;
+    color: rgb(226, 59, 184);
+    padding: 10px 30px;
+    border-radius: 30px;
+    margin: 30px 0 10px;
+}
